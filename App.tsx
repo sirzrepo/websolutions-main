@@ -109,7 +109,7 @@ const App: React.FC = () => {
                   />
                 </div>
                 
-                {/* Right Circle */}
+                {/* Right Circle. */}
                 <div className="w-24 h-24 md:w-40 md:h-40 rounded-full border-4 border-white shadow-2xl overflow-hidden bg-white shrink-0">
                   <img 
                     src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&q=80&w=400" 
