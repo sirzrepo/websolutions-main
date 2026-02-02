@@ -265,7 +265,7 @@ const LiveGallery: React.FC = () => {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
-               <button className="bg-blue-600 text-white px-10 py-5 rounded-full font-black text-sm uppercase tracking-widest hover:scale-105 active:scale-95 transition-all shadow-xl shadow-blue-500/20">
+               <button onClick={() => window.location.href = 'https://webquestionnaire.sirz.co.uk/'} className="bg-blue-600 text-white px-10 py-5 rounded-full font-black text-sm uppercase tracking-widest hover:scale-105 active:scale-95 transition-all shadow-xl shadow-blue-500/20">
                  Start My Build
                </button>
                <button className="bg-white/5 border border-white/20 text-white px-10 py-5 rounded-full font-black text-sm uppercase tracking-widest hover:bg-white/10 transition-all">

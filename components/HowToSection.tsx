@@ -19,8 +19,8 @@ const HowToSection: React.FC = () => {
           <h2 className="text-4xl font-bold mb-8">How to create a <br/>website for free</h2>
           <p className="text-slate-500 mb-8">Follow these 7 simple steps to create a website today.</p>
           <div className="flex gap-4">
-            <button className="bg-slate-900 text-white px-8 py-3 rounded-full font-bold text-sm">Get Started</button>
-            <button className="text-slate-900 font-bold border-b-2 border-slate-900">Learn more</button>
+            <button onClick={() => window.location.href = 'https://webquestionnaire.sirz.co.uk/'} className="bg-slate-900 text-white px-8 py-3 rounded-full font-bold text-sm">Get Started</button>
+            <button onClick={() => window.location.href = 'https://webquestionnaire.sirz.co.uk/'} className="text-slate-900 font-bold border-b-2 border-slate-900">Learn more</button>
           </div>
         </div>
         <div className="md:w-2/3 border-l border-slate-100 pl-8 md:pl-16 space-y-8">

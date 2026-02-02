@@ -17,7 +17,7 @@ const DashboardSection: React.FC = () => {
               <h3 className="font-bold text-slate-400 text-lg">Custom automations</h3>
               <h3 className="font-bold text-slate-400 text-lg">Data & analytics</h3>
               <h3 className="font-bold text-slate-400 text-lg">Mobile app</h3>
-              <button className="mt-4 bg-slate-900 text-white px-8 py-3 rounded-full font-bold text-sm">Get Started</button>
+              <button onClick={() => window.location.href = 'https://webquestionnaire.sirz.co.uk/'} className="mt-4 bg-slate-900 text-white px-8 py-3 rounded-full font-bold text-sm">Get Started</button>
             </div>
           </div>
           <div className="flex-1">

@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
         </p>
         
         <div className="mb-12">
-          <button className="bg-blue-600 text-white px-14 py-5 rounded-full text-xl font-bold transition-all hover:bg-blue-700 shadow-2xl shadow-blue-200">
+          <button onClick={() => window.location.href = 'https://webquestionnaire.sirz.co.uk/'} className="bg-blue-600 text-white px-14 py-5 rounded-full text-xl font-bold transition-all hover:bg-blue-700 shadow-2xl shadow-blue-200">
             Get Started
           </button>
           <p className="mt-4 text-sm text-slate-400 font-medium">

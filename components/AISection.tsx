@@ -9,7 +9,7 @@ const AISection: React.FC = () => {
           <div className="flex-1">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Create your site in minutes <br/>with our AI website builder</h2>
             <p className="text-slate-600 text-lg mb-8 max-w-md">Describe what you want and get a unique, business ready website tailored just for you.</p>
-            <button className="bg-slate-900 text-white px-8 py-3 rounded-full font-bold text-sm hover:opacity-90">Get Started</button>
+            <button onClick={() => window.location.href = 'https://webquestionnaire.sirz.co.uk/'} className="bg-slate-900 text-white px-8 py-3 rounded-full font-bold text-sm hover:opacity-90">Get Started</button>
           </div>
           <div className="flex-1 relative">
             <div className="bg-white p-2 rounded-[40px] shadow-2xl overflow-hidden border border-slate-100">

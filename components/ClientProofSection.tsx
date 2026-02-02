@@ -109,7 +109,7 @@ const ClientProofSection: React.FC = () => {
             <div className="absolute top-0 left-0 w-full h-full grid-pattern opacity-10"></div>
             <h3 className="text-2xl font-black mb-4 relative z-10">Ready to join them?</h3>
             <p className="text-slate-400 text-sm font-medium mb-8 relative z-10">Your business deserves the same high-performance infrastructure.</p>
-            <button className="w-full bg-blue-600 hover:bg-blue-700 py-4 rounded-2xl font-black text-sm uppercase tracking-widest relative z-10 transition-all active:scale-95">
+            <button onClick={() => window.location.href = 'https://webquestionnaire.sirz.co.uk/'} className="w-full bg-blue-600 hover:bg-blue-700 py-4 rounded-2xl font-black text-sm uppercase tracking-widest relative z-10 transition-all active:scale-95">
               Start Your Build
             </button>
           </div>

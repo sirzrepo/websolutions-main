@@ -130,7 +130,7 @@ const TemplateSection: React.FC = () => {
           <p className="text-slate-500 max-w-2xl mx-auto mb-10 text-lg font-medium">
             Our free website builder offers 2000+ website templates, all fully customizable and ready for business.
           </p>
-          <button className="bg-[#0f172a] text-white px-12 py-4 rounded-full font-black text-sm uppercase tracking-widest hover:scale-105 transition-all shadow-xl shadow-slate-200">
+          <button onClick={() => window.location.href = 'https://webquestionnaire.sirz.co.uk/'} className="bg-[#0f172a] text-white px-12 py-4 rounded-full font-black text-sm uppercase tracking-widest hover:scale-105 transition-all shadow-xl shadow-slate-200">
             Get Started
           </button>
         </div>

@@ -8,7 +8,7 @@ const FoundationSection: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Grow your website on <br/>a rock-solid foundation</h2>
           <p className="text-slate-500 mb-8">Set your site up for success on the powerful infrastructure that supports millions of websites worldwide.</p>
-          <button className="bg-slate-900 text-white px-8 py-3 rounded-full font-bold text-sm">Get Started</button>
+          <button onClick={() => window.location.href = 'https://webquestionnaire.sirz.co.uk/'} className="bg-slate-900 text-white px-8 py-3 rounded-full font-bold text-sm">Get Started</button>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">

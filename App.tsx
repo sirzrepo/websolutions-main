@@ -39,7 +39,7 @@ const App: React.FC = () => {
                   </div>
                   <h3 className="font-bold text-lg pl-6">Built in AI tools</h3>
                   <h3 className="font-bold text-lg pl-6">Advanced design features</h3>
-                  <button className="mt-4 bg-slate-900 text-white px-8 py-3 rounded-full font-bold text-sm">Get Started</button>
+                  <button onClick={() => window.location.href = 'https://webquestionnaire.sirz.co.uk/'} className="mt-4 bg-slate-900 text-white px-8 py-3 rounded-full font-bold text-sm">Get Started</button>
                 </div>
               </div>
               <div className="flex-1">
@@ -56,7 +56,7 @@ const App: React.FC = () => {
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex justify-between items-end mb-12">
               <h2 className="text-4xl md:text-5xl font-bold">Market your site <br/>from launch to scale</h2>
-              <button className="bg-slate-900 text-white px-6 py-2 rounded-full font-bold text-sm">Get Started</button>
+              <button onClick={() => window.location.href = 'https://webquestionnaire.sirz.co.uk/'} className="bg-slate-900 text-white px-6 py-2 rounded-full font-bold text-sm">Get Started</button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100">
@@ -127,7 +127,7 @@ const App: React.FC = () => {
 
         <section className="py-32 bg-slate-50 text-center">
            <h2 className="text-5xl font-bold mb-4">Your vision. Your goals. <br/>Your website.</h2>
-           <button className="bg-blue-600 text-white px-12 py-5 rounded-full text-xl font-bold hover:bg-blue-700 transition-colors shadow-xl">Get Started</button>
+           <button onClick={() => window.location.href = 'https://webquestionnaire.sirz.co.uk/'} className="bg-blue-600 text-white px-12 py-5 rounded-full text-xl font-bold hover:bg-blue-700 transition-colors shadow-xl">Get Started</button>
         </section>
       </main>
       <Footer />
