@@ -23,7 +23,7 @@ const ClientProofSection: React.FC = () => {
     },
     {
       platform: 'TikTok Shop',
-      name: 'INNOVATIONZ',
+      name: 'INNOVATIONS',
       url: 'https://vt.tiktok.com/ZNRS4MdXd/',
       description: 'Viral commerce engine integrated directly with social content systems.',
       icon: 'https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg',
